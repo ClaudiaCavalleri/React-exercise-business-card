@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    font-family: 'Andika', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    background-color: #2F2F2F;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoProfile {
+    background-color: #5C5C5C;
+    width: 200px;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.info,
+.about, 
+.interests {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+  
+a:hover {
+    color: #0077B5;
+}
+
+button {
+    margin: 20px 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: large;
+}
+
+.button1 {
+    background-color: #FFF7EC;
+}
+
+.button2 {
+    background-color: #0077B5;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.2rem;
+}
